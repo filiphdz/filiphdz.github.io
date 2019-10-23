@@ -1,0 +1,49 @@
+* {
+	margin:0;
+	padding:0;
+	font-family:arial;
+	text-align: center;
+}
+
+body {
+	background-image: url('header.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: top center;
+}
+
+section {
+	width: 50%;
+	height: 100%;
+	margin-left: 25%;
+	margin-right: 25%;
+	float: left;
+}
+
+nav {
+	width: 100%;
+	position: fixed;
+	z-index: 1;
+	top: 220px;
+}
+
+ul {
+	width: 100%;
+	margin:auto;
+	list-style:none;
+}
+
+ul li {
+	display: inline;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 260px;
+}
+
+p {
+	text-align: left;
+}
