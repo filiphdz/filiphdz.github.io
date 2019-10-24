@@ -27,14 +27,17 @@
 		</section>
 		<section id="contact">
 			<h1>Contact</h1>
-			<form id="contactform" method="POST">
+			<form id="contactform" method="POST" action="https://formspree.io/xqkzpqwk">
 				<label>Name</label>
-				<input type="text" placeholder="Your name">
+				<input type="text" name="name" placeholder="Your name">
 				<label>E-mail address</label>
-				<input type="email" placeholder="Your email">
+				<input type="email" name="_replyto" placeholder="Your email">
 				<label>Message</label>
-				<textarea placeholder="Your message"></textarea>
+				<textarea name="message" placeholder="Your message"></textarea>
 				<input class="submit" type="submit" value="Submit">
+				<input type="hidden" name="_subject" value="Website form">
+				<input type="text" name="_gotcha" style="display:none">
+				<input type="hidden" name="_next" value="index.html">
 			</form>
 		</section>
 	</body>
