@@ -149,7 +149,7 @@ p {
 	text-align: left;
 }
 
-@media (max-width:769px) {
+@media (max-width:1200px) {
     ul {
 	width: 100%;
 	margin:auto;
