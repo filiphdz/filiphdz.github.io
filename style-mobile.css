@@ -152,7 +152,7 @@ p {
 }
 
 
-@media (min-width: 1000px) {
+/* @media (min-width: 1000px) {
 * {
 	margin:0;
 	padding:0;
@@ -161,10 +161,6 @@ p {
 }
 
 body {
-/* 	background-image: url('header.png');
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: top center; */
 }
 
 #container {
@@ -177,8 +173,6 @@ body {
 header {
 	position:fixed;
 	width:800px;
-/* 	margin-left: 25%;
-	margin-right: 25%; */
 	margin-top:20px;
 	margin-left: auto;
 	margin-right: auto;
@@ -191,8 +185,6 @@ section {
 	width: 800px;
 	height: 100%;
 	margin: 0 auto;
-/* 	margin-left: 25%;
-	margin-right: 25%; */
 	float: left;
 }
 
@@ -306,4 +298,4 @@ p {
 	padding: 5px;
 	font-size: 1.2vw;
 }
-}
+} */
