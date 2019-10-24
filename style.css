@@ -148,3 +148,24 @@ input.submit:hover {
 p {
 	text-align: left;
 }
+
+@media (max-width:959px) {
+    ul {
+	width: 100%;
+	margin:auto;
+	list-style:none;
+	font-family: sitka, georgia, serif;
+	font-size: 4vw;
+	text-decoration: none;
+	color:black;
+	}
+	
+	h1 {
+	font-size: 5vw;
+	font-family: sitka, georgia, serif;
+	text-align: center;
+	margin-top: 280px;
+	padding-bottom: 15px;
+	}
+	
+}
