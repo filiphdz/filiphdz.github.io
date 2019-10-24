@@ -6,10 +6,20 @@
 }
 
 body {
-	background-image: url('header.png');
+/* 	background-image: url('header.png');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-position: top center;
+	background-position: top center; */
+}
+
+header {
+	position:fixed;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+.resizeable {
+	max-width: 100%;
 }
 
 section {
@@ -24,13 +34,17 @@ nav {
 	width: 100%;
 	position: fixed;
 	z-index: 1;
-	top: 220px;
+	top: 29%;
 }
 
 ul {
 	width: 100%;
 	margin:auto;
 	list-style:none;
+	font-family: sitka, georgia, serif;
+	font-size: 1.5vw;
+	text-decoration: none;
+	color:black;
 }
 
 ul li {
@@ -41,7 +55,7 @@ ul li {
 
 ul li a {
 	font-family: sitka, georgia, serif;
-	font-size: 16pt;
+	font-size: 1.5vw;
 	text-decoration: none;
 	color:black;
 }
@@ -56,10 +70,10 @@ ul li a:hover {
 }
 
 h1 {
-	font-size: 20pt;
+	font-size: 1.8vw;
 	font-family: sitka, georgia, serif;
 	text-align: center;
-	margin-top: 260px;
+	margin-top: 34%;
 	padding-bottom: 15px;
 }
 
