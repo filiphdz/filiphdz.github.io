@@ -13,8 +13,6 @@ body {
 }
 
 section {
-	min-width: 400px;
-	max-width: 800px;
 	width: 50%;
 	height: 100%;
 	margin-left: 25%;
@@ -45,6 +43,7 @@ ul li a {
 	font-family: sitka, georgia, serif;
 	font-size: 16pt;
 	text-decoration: none;
+	color:black;
 }
 
 ul li a:visited {
