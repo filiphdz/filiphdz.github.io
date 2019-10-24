@@ -34,7 +34,7 @@ nav {
 	width: 100%;
 	position: fixed;
 	z-index: 1;
-	top: 29%;
+	top: 220px;
 }
 
 ul {
@@ -73,7 +73,7 @@ h1 {
 	font-size: 1.8vw;
 	font-family: sitka, georgia, serif;
 	text-align: center;
-	margin-top: 34%;
+	margin-top: 260px;
 	padding-bottom: 15px;
 }
 
