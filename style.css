@@ -6,10 +6,7 @@
 }
 
 body {
-/* 	background-image: url('header.png');
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: top center; */
+	background-color: pink;
 }
 
 #container {
