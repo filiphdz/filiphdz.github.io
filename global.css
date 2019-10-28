@@ -6,7 +6,11 @@
 }
 
 body {
-	background-color: ffdbfc;
+	background-color: #ffdbfc;
+}
+
+a, a:visited, a:hover {
+	color: #444444;
 }
 
 #container {
