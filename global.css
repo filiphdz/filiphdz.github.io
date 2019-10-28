@@ -6,7 +6,7 @@
 }
 
 body {
-	background-color: white;
+	background-color: ffdbfc;
 }
 
 #container {
@@ -50,7 +50,6 @@ ul {
 	margin:auto;
 	list-style:none;
 	font-family: sitka, georgia, serif;
-	font-size: 1.5vw;
 	text-decoration: none;
 	color:black;
 }
@@ -63,7 +62,6 @@ ul li {
 
 ul li a {
 	font-family: sitka, georgia, serif;
-	font-size: 1.5vw;
 	text-decoration: none;
 	color:black;
 }
@@ -74,7 +72,7 @@ ul li a:visited {
 }
 
 ul li a:hover {
-	color: blue;
+	color: #ff47f2;
 }
 
 h1 {
@@ -117,9 +115,9 @@ input, textarea {
 	width: 400px;
 	font-size: 0.9em;
 	height: 30px;
-	background: #eeeeee;
+	background: #fcc7f9;
 	border: 1px solid #dddddd;
-	color: #3a3a3a;
+	color: #b304a6;
 	border-radius: 5px;
 }
 
@@ -144,5 +142,12 @@ input.submit:hover {
 
 p {
 	text-align: left;
-	padding: 5px;
+	padding:5px;
+	line-height: 1.5;
+}
+
+.photo {
+	float:right;
+	max-width:200px;
+	padding-left: 50px;
 }
