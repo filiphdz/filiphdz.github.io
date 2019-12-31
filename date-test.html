@@ -1,0 +1,21 @@
+<html>
+<body>
+<script type="text/javascript">
+	var d = new Date();
+	var spring = /Mar|Apr|May/.test(d);
+	var summer = /Jun|Jul|Aug/.test(d);
+	var autumn = /Sep|Oct|Nov/.test(d);
+	if (/Dec|Jan|Feb/.test(d)) {
+		document.write("<img src=\"author-photo.jpg\" class=\"photo\" alt=\"Winter\">");
+	} else if (spring) {
+		document.write("<img src=\"author-photo.jpg\" class=\"photo\" alt=\"Spring\">");
+	} else if (summer) {
+		document.write("<img src=\"author-photo.jpg\" class=\"photo\" alt=\"Summer\">");
+	} else if (autumn) {
+		document.write("<img src=\"author-photo.jpg\" class=\"photo\" alt=\"Autumn\">");
+	} else {
+		document.write("<img src=\"author-photo.jpg\" class=\"photo\" alt=\"Default\">");
+	}
+</script>
+</body>
+</html>

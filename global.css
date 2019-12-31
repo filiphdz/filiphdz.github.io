@@ -6,7 +6,7 @@
 }
 
 body {
-	background-color: #ffdbfc;
+	background-color: #ffedfe;
 }
 
 a, a:visited, a:hover {
@@ -94,7 +94,7 @@ h2 {
 	padding-bottom: 15px;
 }
 
-.story-title {
+.zine {
 	font-style: italic;
 }
 
@@ -154,4 +154,11 @@ p {
 	float:right;
 	max-width:200px;
 	padding-left: 50px;
+}
+
+#pubs ul {
+	font-size: 12pt;
+	padding:0;
+	margin:0;
+	text-align: left;
 }
