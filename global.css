@@ -9,8 +9,12 @@ body {
 	background-color: #ffedfe;
 }
 
-a, a:visited, a:hover {
+a, a:visited {
 	color: #444444;
+}
+
+a:hover {
+	color: #ff47f2;
 }
 
 #container {
@@ -162,3 +166,8 @@ p {
 	margin:0;
 	text-align: left;
 }
+
+#pubs ul a, #pubs ul a:visited, #pubs ul a:hover, #pubs ul a:active {
+	font-size:12pt;
+}
+	
