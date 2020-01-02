@@ -168,8 +168,11 @@ p {
 	text-align: left;
 }
 
-#pubs ul a, #pubs ul a:visited, #pubs ul a:hover, #pubs ul a:active {
+#pubs ul a, #pubs ul a:visited, #pubs ul a:active {
 	font-size:12pt;
 	color: #444444;
 }
-	
+
+#pubs ul a:hover {
+	color:#ff47f2;
+}
