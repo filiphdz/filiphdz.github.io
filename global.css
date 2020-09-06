@@ -163,9 +163,8 @@ p {
 
 #pubs ul {
 	font-size: 12pt;
-	padding:0;
+	padding:0 0 10px 0;
 	margin:0;
-	text-align: left;
 }
 
 #pubs ul a, #pubs ul a:visited, #pubs ul a:active {
@@ -175,4 +174,9 @@ p {
 
 #pubs ul a:hover {
 	color:#ff47f2;
+}
+
+#pubs ul li {
+	display:block;
+	text-align: left;
 }
