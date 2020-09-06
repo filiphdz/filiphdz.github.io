@@ -163,7 +163,7 @@ p {
 
 #pubs ul {
 	font-size: 12pt;
-	padding:0 0 10px 0;
+	padding:0 0 0.6em 0;
 	margin:0;
 }
 
@@ -179,4 +179,5 @@ p {
 #pubs ul li {
 	display:block;
 	text-align: left;
+	padding: 0.1em;
 }
