@@ -167,12 +167,12 @@ p {
 	margin:0;
 }
 
-#pubs ul a, #pubs ul a:visited, #pubs ul a:active {
+#pubs ul a, #pubs ul a:visited, #pubs ul a:active, #awards ul a, #awards ul a:visited, #awards ul a:active {
 	font-size:12pt;
 	color: #444444;
 }
 
-#pubs ul a:hover {
+#pubs ul a:hover, #awards ul a:hover {
 	color:#ff47f2;
 }
 
@@ -180,4 +180,16 @@ p {
 	display:block;
 	text-align: left;
 	padding: 0.1em;
+}
+
+#awards ul {
+	font-size: 12pt;
+	padding:0 0 0.6em 0;
+	margin: 0 0 0 7%;
+}
+
+#awards ul li {
+	display:block;
+	text-align: left;
+	padding: 0.3em;
 }
