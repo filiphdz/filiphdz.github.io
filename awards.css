@@ -7,7 +7,6 @@
 
 body {
 	background-color: #ffedfe;
-	overflow:hidden;
 }
 
 a, a:visited {
@@ -22,7 +21,7 @@ a:hover {
 	align-items: center;
 	display:flex;
 	flex-direction:column;
-	height: 300%;
+	height: 100%;
 }
 
 header {
