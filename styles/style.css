@@ -1,0 +1,147 @@
+body{
+	max-width: 800px;
+	padding: 20px 20px;
+	margin: 0 auto;
+	font-family: "Libre Baskerville", serif;
+}
+
+img{
+	padding: 10px 10px 10px 10px;
+	display: block;
+	margin: 0 auto;
+	width: 90%;
+	max-width: 600px;
+}
+
+hr{
+    width: 50%;
+}
+
+.inline{
+	float: left;
+	padding-right: 20px;
+    width: 30%;
+}
+
+
+.menu{
+	word-spacing: 20px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.block-paragraph{
+    font-size: 12px;
+    text-align: left;
+    line-height: 1.75em;
+}
+
+.banner-img{
+	max-width: 400px;
+}
+
+.story-title{
+	font-family: "Libre Baskerville", serif;
+	font-weight: 1000;
+}
+
+.zine {
+	font-family: "Libre Baskerville", serif;
+	font-style: italic;
+}
+
+.indent {
+	margin-left: 48px;
+}
+
+.logo{
+	max-width: 240px;
+}
+
+p {
+	font-size: 14px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+	line-height: 2em;
+    text-align: left;
+}
+
+a{
+	color: #000000;
+	font-family: "Libre Baskerville", serif;
+}
+
+h3{
+    font-family: "Libre Baskerville", serif;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+}
+
+h4 {
+	text-align: left;
+	font-size: 14px;
+}
+
+form {
+	text-align:left;
+	width: 400px;
+	margin: 0 auto;
+}
+
+input, textarea {
+	font-family: "Libre Baskerville", serif;
+	text-align:left;
+	padding: 5px;
+	margin: 2px 0px;
+	width: 400px;
+	font-size: 12px;
+	height: 30px;
+	background: #eedbdf;
+	border: 1px solid #dddddd;
+	color: #7d3e4c;
+	border-radius: 5px;
+}
+
+textarea {
+	height: 200px;
+}
+
+input:focus, textarea:focus {
+    border:1px solid #97d6eb;
+}
+
+input.submit {
+	border: none;
+	width: 120px;
+	height: 30px;
+	margin-top: 10px;
+}
+
+input.submit:hover {
+	opacity: .8;
+}
+
+ul {
+	font-size: 18px;
+	font-family: "Libre Baskerville", serif;
+	padding:0 0 0.6em 0;
+	margin:0;
+	line-height: 1.5em;
+}
+
+ul a, ul a:visited, ul a:active, ul a, ul a:visited, ul a:active {
+	color: #444444;
+}
+
+ul a:hover {
+	color:#ff47f2;
+}
+
+ul li {
+	display:block;
+	text-align: left;
+	padding: 0.1em;
+}
