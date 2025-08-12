@@ -87,7 +87,7 @@ h4 {
 
 form {
 	text-align:left;
-	width: 400px;
+	width: 300px;
 	margin: 0 auto;
 }
 
@@ -96,7 +96,7 @@ input, textarea {
 	text-align:left;
 	padding: 5px;
 	margin: 2px 0px;
-	width: 400px;
+	width: 300px;
 	font-size: 12px;
 	height: 30px;
 	background: #eedbdf;
